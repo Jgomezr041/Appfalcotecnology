@@ -1,0 +1,111 @@
+/* homee.css */
+
+.category-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .category-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-box {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .category-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .all-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .htext{
+    text-align: center;
+  }
+
+  .cont{
+    margin-left: 10%;
+  }
+  .service-card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(10, 153, 219);
+  }
+ 
+  .imagx {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    display: block;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(233, 222, 222);
+  }
+  
+  .service-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: rgb(233, 222, 222);
+  }
+  
+  .service-card IonButton {
+    margin-top: 10px;
+  }
+
+
+  .toolbarr{
+
+    margin-right: 5%;
+  }
+
+  .titulex{
+    color: black;
+  }
+  .textp{
+    color: black;
+  }
+  .textp{
+    text-align: center;
+    color:rgb(197, 10, 10);
+  }
+  .centerm{
+    
+  margin-left: 30%;
+  }
+  .datatimee{
+    margin-left: 16%;
+  }
+@media screen and (max-width: 600px){
+  .cont{
+    margin-left: 20%;
+  }
+  .centerm{
+    
+    margin-left: 30%;
+    }
+    .datatimee{
+      margin-left: 16%;
+    }
+}

@@ -1,0 +1,56 @@
+.menu-header {
+  text-align: center;
+  padding: 16px;
+  background-color: #19b2e0;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.user-image {
+  width: 59%;
+  height: 61%;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.user-info {
+  margin-bottom: 16px;
+}
+
+.user-info h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #faf3f3;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #faf3f3;
+}
+
+.add-branch-button {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  width: 50%;
+  margin-right: 120%;
+  background-color: #3880ff;
+  color: white;
+}
+
+IonItem {
+  --background: white;
+  --min-height: 50px;
+}
+
+IonIcon {
+  color: #3880ff;
+}
+
+IonSelect {
+  --placeholder-color: #666;
+  width: 100%;
+  max-width: 180px;
+  margin-left: auto;
+}

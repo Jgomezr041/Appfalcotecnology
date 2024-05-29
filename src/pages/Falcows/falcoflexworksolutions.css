@@ -1,0 +1,127 @@
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+    
+    text-align: center;
+    margin-top: 30px;
+  /*  background-color: rgba(176, 220, 240);*/
+}
+.textoh1{
+   text-align: center;
+}
+.login-background {
+    background-color: rgba(var(--ion-text-color-rgb, 176, 220, 240));
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+  }
+  .login-container {
+    width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 10px;
+  background-color: rgb(2, 2, 90);
+	border: 5px solid #0faad1;
+	border-radius: 10px;
+	
+  }
+  /*uso de <a> quitar subrayar 
+  */
+
+  .atexto{
+    display: flex;
+    color: aliceblue;
+    size: 30px;
+    text-decoration: none;
+}
+  
+  .login-input {
+    
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px;
+
+  }
+  .login-button{
+    margin-left: 35%;
+  }
+
+  .custom-imgg{
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    margin-left: 15%;
+  }
+  @media only screen and (max-width: 768px ) {
+    .custom-imgg{
+    
+      align-items: center;
+      margin-left: 16%;
+    }
+    .login-container {
+      width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #0faad1;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 90);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .texto{
+      font-size: 30px;
+      font-weight: bold;
+      
+      text-align: center;
+      margin-top: 50px;
+    /*  background-color: rgba(176, 220, 240);*/
+  } 
+  .login-button{
+    margin-left: 22%;
+  }
+  }
+ 
+  @media only screen and (max-width: 968px ) {
+    .custom-imgg{
+    
+      align-items: center;
+      margin-left: 25%;
+    }
+    .login-container {
+      width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #0faad1;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 90);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .texto{
+      font-size: 30px;
+      font-weight: bold;
+      
+      text-align: center;
+      margin-top: 30px;
+    /*  background-color: rgba(176, 220, 240);*/
+  } 
+  .login-button{
+    margin-left: 20%;
+  }
+  
+  }

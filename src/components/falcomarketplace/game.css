@@ -1,0 +1,28 @@
+.game-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .ion-padding {
+    padding: 16px;
+  }
+  
+  ion-card-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  ion-card-content {
+    font-size: 1em;
+    text-align: justify;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+   .p{
+  color: black;
+   }
+  

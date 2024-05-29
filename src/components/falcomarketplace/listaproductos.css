@@ -1,0 +1,16 @@
+.producto-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .productos-container {
+    padding: 20px;
+  }
+  
+  .producto-label {
+    display: flex;
+    flex-direction: column;
+  }
+  

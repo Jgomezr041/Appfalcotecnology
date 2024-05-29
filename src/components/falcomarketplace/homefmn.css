@@ -1,0 +1,28 @@
+.servicecardd{
+    width: 18%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+}
+  
+  h2, h1, p {
+    margin: 10px 0;
+    color:black;
+  }
+  p{
+    color: black;
+  }
+  
+/*Compatible mobile*/
+@media screen and (max-width: 968px) {
+    .servicecardd{
+        width: 100%;
+    }
+    h2, h1, p {
+        margin: 10px 0;
+        color:black;
+      }
+      p{
+        color: black;
+      }
+}

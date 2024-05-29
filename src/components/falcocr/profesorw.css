@@ -1,0 +1,45 @@
+.textc{
+  margin-left: 8%;
+  
+  text-align: center;
+}
+.Button{
+  width: 40%;
+
+}
+  
+  .servicecard {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(10, 153, 219);
+  }
+ 
+  .imagxx {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    display: block;
+  }
+
+  .servicecard h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(233, 222, 222);
+  }
+  
+  .servicecard p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: rgb(233, 222, 222);
+  }
+  
+  .servicecard IonButton {
+    margin-top: 10px;
+  }
+  

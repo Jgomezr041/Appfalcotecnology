@@ -1,0 +1,96 @@
+ion-title{
+    text-align: center;
+}
+.contentcrearcuenta{
+    --background-size: 100% 100%;
+    --background-position: 0px 0px;
+    --background: linear-gradient(59deg, #381FE2FF 3%, #71C4FFFF 100%);
+    
+}
+
+.formula {
+    width: 100%;
+    max-width: 600px;
+
+
+    margin: 0 auto;
+    padding: 2rem;
+    background: #ffffff;
+    border: 5px solid #120c6d;
+    border-radius: 3%;
+    
+  }
+  
+  .formula ion-label {
+    display: block;
+    
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formula ion-input,
+  .formula ion-select{
+    width: 100%;
+    
+ 
+    border: 1px solid #120c6d;;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .formula ion-button {
+    --background : #120c6d;
+  }
+  .formula ion-input[type="date"] {
+    padding: 5px;
+  }
+  
+  .formula ion-button {
+    
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 668px ) {
+    .formula {
+        width: 100%;
+        max-width: 365px;
+ 
+    
+        margin: 0 auto;
+        padding: 2rem;
+        color: #ffffff;
+        background: #07b1db;
+        border: 5px solid #120c6d;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 253, 253);
+      }
+      
+      .formula ion-label {
+        display: block;
+        
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      .formula ion-input,
+      .formula ion-select{
+        width: 100%;
+        
+     
+        border: 1px solid #120c6d;;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      .formula ion-button {
+        --background : #120c6d;
+      }
+      .formula ion-input[type="date"] {
+        padding: 5px;
+      }
+      
+      .formula ion-button {
+        
+        color: white;
+        cursor: pointer;
+      }
+  }

@@ -1,0 +1,31 @@
+/* detallesproducto.css */
+.producto-detalles-container {
+    padding: 20px;
+  }
+  
+  .producto-carrusel {
+    width: 100%;
+    height: auto;
+  }
+  
+  .producto-img-carrusel {
+    width: 100%;
+    height: auto;
+  }
+  
+  .producto-info {
+    padding: 20px;
+  }
+  
+  .producto-info h2 {
+    margin: 10px 0;
+  }
+  
+  .producto-info p {
+    margin: 10px 0;
+  }
+  
+  .producto-info IonItem {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,138 @@
+#container {
+  text-align: center;
+  position:relative;
+  
+  margin-left: 3%;
+}
+
+.imageni{
+ width: 30%;
+ height: 30%;
+
+}
+
+ion-spinner {
+  width: 100px;
+  height: 100px;
+}ion-button {
+  top:10%;
+  width: 30%;
+/*menu del centro*/
+  margin-left: 40%;
+  border-radius: 5%;
+}
+/* ion alert*/
+ion-alert.custom-alert {
+  --backdrop-opacity: 0.9;
+}
+.alert-5-msg{
+  color: rgba(var(--ion-text-color-rgb, 176, 220, 240));
+}
+.alert-wrapper.ion-overlay-wrapper.sc-ion-alert-md{
+  background-color: rgba(var(--ion-text-color-rgb, 176, 220, 240));
+}
+.custom-alert .alert-button-group {
+  padding: 8px;
+}
+
+button.alert-button.alert-button-confirm {
+  background-color: rgba(var(--ion-text-color-rgb,43, 3, 220));
+  color: var(--ion-color-success-contrast);
+}
+
+.md button.alert-button.alert-button-confirm {
+  border-radius: 4px;
+}
+
+.ios .custom-alert button.alert-button {
+  border: 0.55px solid rgba(var(--ion-text-color-rgb, 1, 1, 1));
+}
+
+.ios button.alert-button.alert-button-cancel {
+  border-right: 0;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 13px;
+}
+
+.ios button.alert-button.alert-button-confirm {
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+.alert-button-confir {
+  color:white;
+}
+
+.title{
+text-align: center;
+}
+@media only screen and (max-width: 468px ) {
+  #container {
+    text-align: center;
+    position:relative;
+    top: 10%;
+    margin-left: 3%;
+  }
+ 
+  .imageni{
+   width: 40%;
+   height: 40%;
+  
+  }
+  ion-spinner {
+    width: 100px;
+    height: 100px;
+  }ion-button {
+    top:20%;
+    width: 60%;
+  /*menu el centro*/
+    margin-left: 20%;
+    border-radius: 5%;
+  }
+  /* ion alert*/
+  ion-alert.custom-alert {
+    --backdrop-opacity: 0.9;
+  }
+}
+
+@media only screen and (max-width: 668px ) {
+  #container {
+    text-align: center;
+    position:relative;
+    
+    margin-left: 3%;
+  }
+  
+  .imageni{
+   width: 40%;
+   height: 40%;
+  
+  }
+  ion-spinner {
+    width: 100px;
+    height: 100px;
+  }ion-button {
+    top:20%;
+    width: 60%;
+
+  /*menu el centro*/
+    margin-left: 10%;
+    border-radius: 5%;
+  }
+  .card{
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    margin-bottom: 5%;
+  }
+  /* ion alert*/
+  ion-alert.custom-alert {
+    --backdrop-opacity: 0.9;
+  }
+}
+.card{
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+  margin-bottom: 5%;
+}
+
