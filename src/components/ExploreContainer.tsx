@@ -1,8 +1,11 @@
-import { IonAlert, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonImg, IonLoading } from '@ionic/react';
+import { IonAlert, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonImg, IonLoading, IonProgressBar } from '@ionic/react';
 import './ExploreContainer.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import  foto from '../../public/img/inicio2.png';
+import foto1 from '../../public/img/inicio3.png';
+import foto2 from '../../public/img/inicio.png';
 
 interface ContainerProps { }
 
@@ -21,22 +24,23 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
       <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> 
       <Slider {...settings}>
   <div>
-    <IonImg src="public/img/inicio2.png" className='customimg' />
+    <IonImg src={foto} className='customimg' />
   </div>
   <div>
-    <IonImg src="public/img/inicio3.png" className='customimg' />
+    <IonImg src={foto1} className='customimg' />
   </div>
   <div>
-    <IonImg src="public/img/inicio.png" className='customimg' />
+    <IonImg src={foto2} className='customimg' />
   </div>
 </Slider>
     
     <br></br>
     <br></br>
+  
       <IonButton  shape='round' color="tertiary" id='present-alert-user'>Falco Marketplace </IonButton><br/>
-      <IonLoading trigger="open-loading" message="Dismissing after 3 seconds..." duration={3000} />
+      <IonLoading trigger="open-loading" message="Dismissing after 1 seconds..." duration={1000} />
       <IonButton shape='round' color="tertiary" id='present-alert-provedor'>Falco FlexWork Solutions</IonButton>
-      <IonLoading trigger="open-loading" message="Dismissing after 3 seconds..." duration={3000} />
+      <IonLoading trigger="open-loading" message="Dismissing after 1 seconds..." duration={1000} />
       <IonAlert
         trigger="present-alert-user"
         header="Falco Markeplace "

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import {IonImg, IonText,IonAlert,IonButton,IonItem,IonLabel,IonInput, IonContent, IonHeader, IonButtons, IonPage, IonTitle, IonToolbar ,IonBackButton, IonBackdrop, useIonRouter} from '@ionic/react';
 
 import './falcomarketplace.css';
+//"public/logom.png
 
-
+import logoo from  '../../public/logom.png';
 
 var texto = "Bienvenido a Falco marketplace";
 
@@ -54,8 +55,7 @@ const handleLoginn = () => {
     <h1 className='texto'>{texto}  </h1>
       <br></br><br></br>
       <div className="login-container">
-      <IonImg src="public/logom.png
-          " class='custom-imgg' /> <br></br>
+      <IonImg src={logoo} class='custom-imgg' /> <br></br>
         <IonItem className="login-input">
           <IonLabel position='stacked'>Email</IonLabel>
           <IonInput type="email" value={email} onIonChange={e => setEmail(e.detail.value!)} />

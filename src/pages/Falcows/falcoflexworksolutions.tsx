@@ -5,8 +5,8 @@ import {IonImg,IonAlert,IonButton,IonItem,IonLabel,IonInput, IonContent, IonHead
 
 import './falcoflexworksolutions.css';
 
-
-
+//public/falcoflexs.png
+import  logow from '../../../public/falcoflexs.png';
 
 
 
@@ -48,8 +48,7 @@ const FalcoflexWorkSolutions: React.FC = () => {
      
       <div className="login-container">
       
-      <IonImg src="public/falcoflexs.png
-          " class='custom-imgg'  />
+      <IonImg src={logow} class='custom-imgg'  />
 
         <IonItem className="login-input">
           <IonLabel position='stacked'>Email</IonLabel>
